@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.body-login {
+    font-family: 'Poppins', sans-serif;
+    background: url('./asset/background_login.jpg') no-repeat center center/cover;
+    backdrop-filter: blur(10px);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;  
+    user-select: none;   
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.277);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 70px;
+}
+
+.header-login {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(270deg, #E19A45 0%, #D07D1A 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 350px;
+}
+
+.header-login h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.header-login h1 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-signup {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(270deg, #E19A45 0%, #D07D1A 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-signup h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.header-signup h1 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-verify {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(270deg, #E19A45 0%, #D07D1A 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 250px;
+}
+
+.header-verify h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.header-verify h1 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-verify1 {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(270deg, #E19A45 0%, #D07D1A 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 180px;
+}
+
+.header-verify1 h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.header-verify1 h1 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-fpw {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(270deg, #E19A45 0%, #D07D1A 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 180px;
+}
+
+.header-fpw h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.header-fpw h1 {
+    margin: 5px 0 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.login-form .input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: calc(100% - 50px); /* Mengurangi lebar 50px untuk padding dan ikon */
+    padding: 10px 10px 10px 40px; /* Padding kiri untuk memberi ruang ikon */
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #d49a56; /* Hanya garis bawah */
+    border-radius: 0; /* Hilangkan border-radius */
+    outline: none;
+    background: transparent; /* Transparan agar menyatu dengan background */
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.input-container input:focus {
+    border-bottom: 2px solid #f7dabb; /* Warna garis bawah saat fokus */
+}
+
+.input-container .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+.login-button {
+    background-color: #d49a56;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #b57f45;
+}
+
+.google-login-button {
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 1px solid #d49a56;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.google-login-button:hover {
+    background-color: #f7f7f7;
+}
+
+::placeholder {
+    color: #cac3c3;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translate(-50%, -60%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -60%);
+        opacity: 0;
+    }
+}
